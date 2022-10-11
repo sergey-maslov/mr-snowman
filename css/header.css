@@ -1,3 +1,7 @@
-#header {
+.header {
     background-image: url('/img/header-cover.png');
+}
+
+.menu {
+    padding: 30px 24px;
 }
