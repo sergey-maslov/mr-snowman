@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Source+Sans+3&display=swap');
 
 * {
     margin: 0;
@@ -10,6 +11,7 @@
 :root {
     --font-primary: "Dangrek", sans-serif;
     --font-additional: "Leckerli One", sans-serif;
+    --font-menu: "Source Sans 3", sans-serif;
 
     --color-text-main: rgb(255, 255, 255);
     --color-text-additional: rgb(225, 221, 232);

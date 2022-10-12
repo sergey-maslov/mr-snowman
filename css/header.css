@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.menu-desktop {
+    display: none;
+}
+
 .hamburger-lines {
     display: flex;
     height: 40px;
@@ -22,4 +26,36 @@
     height: 2px;
     width: 24px;
     background-color: var(--color-text-main);
+}
+
+@media (min-width: 992px) {
+    .hamburger-lines {
+        display: none;
+    }
+
+    .menu {
+        padding: 30px 40px;
+    }
+
+    .logo {
+        cursor: pointer;
+    }
+
+    .menu-desktop {
+        display: flex;
+        font-family: var( --font-menu);
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+    .menu-desktop li {
+        padding: 10px 17.5px;
+        border-bottom: 2px solid rgb(184, 115, 144, .0);
+
+    }
+
+    .menu-desktop li:hover {
+        border-bottom: 2px solid var(--color-lilac-background);
+        cursor: pointer;
+    }
 }
