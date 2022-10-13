@@ -28,6 +28,12 @@
     background-color: var(--color-text-main);
 }
 
+.header-banner {
+    padding: 130px 24px 110px 24px;
+}
+
+
+
 @media (min-width: 992px) {
     .hamburger-lines {
         display: none;
