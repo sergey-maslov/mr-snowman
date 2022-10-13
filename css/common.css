@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Source+Sans+3&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +12,7 @@
     --font-primary: "Dangrek", sans-serif;
     --font-additional: "Leckerli One", sans-serif;
     --font-menu: "Source Sans 3", sans-serif;
+    --font-buttons: "Source Sans Pro", sans-serif;
 
     --color-text-main: rgb(255, 255, 255);
     --color-text-additional: rgb(225, 221, 232);
@@ -56,5 +57,31 @@ h1 {
     font-family: var(--font-primary);
     font-size: 58px;
     font-weight: 400;
-    letter-spacing: 0;
+    line-height: 63.8px;
+}
+
+h2 {
+    margin-top: 25px;
+    font-family: var(--font-menu);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-text-additional);
+}
+
+.button-orange {
+    background-color: var(--color-button-orange);
+}
+
+.button-orange:hover {
+    background-color: var(--color-button-hover);
+    transition: 0.2s ease-in;
+}
+
+.button-purple {
+    background-color: var(--color-purple);
+}
+
+.button-purple:hover {
+    background-color: var(--color-lilac);
+    transition: 0.2s ease-in;
 }

@@ -32,7 +32,28 @@
     padding: 130px 24px 110px 24px;
 }
 
+.header-banner-subtitle {
+    margin-top: 35px;
+}
 
+.header-banner-buttons {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-header {
+    font-family: var(--font-buttons);
+    font-size: 16.5px;
+    font-weight: 700;
+    color: var(--color-text-main);
+    padding: 18px 35px;
+    border-radius: 32px;
+}
+
+.header-banner-buttons .button-purple {
+    margin-top: 20px;
+}
 
 @media (min-width: 992px) {
     .hamburger-lines {
