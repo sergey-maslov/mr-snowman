@@ -1,0 +1,18 @@
+.categories {
+    background-color: var(--color-purple);
+    padding: 65px 24px 60px 24px;
+}
+
+.categories__desserts {
+    background-image: url(/img/categories-desserts.png);
+    padding: 27px;
+    width: auto;
+}
+
+.categories__milk-shakes {
+    background-image: url(/img/categories-milk-shakes.png);
+}
+
+.categories__ice-cream {
+    background-image: url(/img/categories-ice-cream.png);
+}
