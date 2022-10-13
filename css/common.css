@@ -74,7 +74,7 @@ h2 {
 
 .button-orange:hover {
     background-color: var(--color-button-hover);
-    transition: 0.2s ease-in;
+    transition: 0.2s ease-in-out;
 }
 
 .button-purple {
@@ -83,5 +83,5 @@ h2 {
 
 .button-purple:hover {
     background-color: var(--color-lilac);
-    transition: 0.2s ease-in;
+    transition: 0.2s ease-in-out;
 }
