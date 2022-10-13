@@ -1,6 +1,6 @@
 .header {
     background-color: var(--color-purple);
-    background-image: url('img/header-cover.png');
+    background-image: url('/img/header-cover.png');
     background-size: cover;
     background-position: center;
     background-position-x: 63.65%, 0%;

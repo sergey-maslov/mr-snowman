@@ -1,18 +1,48 @@
 .categories {
-    background-color: var(--color-purple);
+    background-color: var(--color-purple-background);
     padding: 65px 24px 60px 24px;
 }
 
 .categories__desserts {
     background-image: url(/img/categories-desserts.png);
+    background-position-x: 52.6%;
+    background-position-y: 32.25%;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 27px;
     width: auto;
 }
 
 .categories__milk-shakes {
     background-image: url(/img/categories-milk-shakes.png);
+    background-position-x: 50.1%;
+    background-position-y: 62.75%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 27px;
+    margin-top: 50px;
+    width: auto;
 }
 
 .categories__ice-cream {
     background-image: url(/img/categories-ice-cream.png);
+    background-position-x: 58.23%;
+    background-position-y: 61.54%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 27px;
+    margin-top: 50px;
+    width: auto;
+}
+
+.categories__title {
+    font-size: 30px;
+}
+
+.categories__card {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-radius: 6px;
 }

@@ -19,6 +19,7 @@
     --color-button-orange: rgb(255, 196, 82);
     --color-button-hover: rgb(234, 183, 84);
     --color-purple: rgb(50, 38, 75);
+    --color-purple-background: rgb(73, 59, 95);
     --color-lilac: rgb(165, 82, 118);
     --color-lilac-background: rgb(184, 115, 144);
 }
@@ -70,18 +71,30 @@ h2 {
 
 .button-orange {
     background-color: var(--color-button-orange);
+    font-family: var(--font-buttons);
+    font-weight: 700;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 27px;
 }
 
 .button-orange:hover {
     background-color: var(--color-button-hover);
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
 .button-purple {
     background-color: var(--color-purple);
+    font-family: var(--font-buttons);
+    font-weight: 700;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 27px;
 }
 
 .button-purple:hover {
     background-color: var(--color-lilac);
     transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
