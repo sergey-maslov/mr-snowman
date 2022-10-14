@@ -1,0 +1,24 @@
+.tastes {
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-button {
+    background-color: var(--color-text-main);
+    opacity: .8;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
+.arrow {
+    align-items: center;
+}
+
+.arrow-button:hover {
+    opacity: 1.0;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
