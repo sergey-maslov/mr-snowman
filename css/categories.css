@@ -1,6 +1,7 @@
 .categories {
-    background-color: var(--color-purple-background);
     padding: 65px 24px 60px 24px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .categories__desserts {
@@ -45,4 +46,24 @@
     /* justify-content: space-between; */
     align-items: center;
     border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+    .categories {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    .categories__card {
+        margin: 0;
+        margin-top: 30px;
+        height: 450px;
+    }
+}
+
+@media (min-width: 992px) {
+    .categories {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

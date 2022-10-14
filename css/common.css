@@ -33,6 +33,7 @@ body {
     font-size: 14px;
     color: var(--color-text-main);
     /* letter-spacing: 0.04em; */
+    background-color: var(--color-purple-background);
 }
 
 .link {
