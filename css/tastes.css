@@ -5,20 +5,78 @@
     align-items: center;
 }
 
+.tastes__button {
+    margin-top: 50px;
+}
+
 .arrow-button {
     background-color: var(--color-text-main);
     opacity: .8;
     border-radius: 50%;
     height: 24px;
     width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .arrow {
     align-items: center;
+    position: absolute;
+}
+
+.arrow-left {
+    transform: scale(-1, 1);
 }
 
 .arrow-button:hover {
     opacity: 1.0;
     transition: 0.3s ease-in;
     cursor: pointer;
+}
+
+.tastes__cards {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.tastes-card {
+    margin: 0 15px;
+    padding: 27px;
+    border-radius: 6px;
+    background-color: var(--color-purple);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tastes-card-image {
+    width: 100%;
+}
+
+.tastes-card-title {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.tastes-card-subtitle {
+    font-family: var(--font-menu);
+    font-size: 18px;
+    font-style: italic;
+    color: rgb(185, 177, 197);
+    margin-top: 20px;
+}
+
+.tastes-card-price {
+    font-family: var(--font-menu);
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(185, 177, 197);
+    margin-top: 20px;
+}
+
+.tastes-dollars {
+    color: var(--color-button-orange);
 }
