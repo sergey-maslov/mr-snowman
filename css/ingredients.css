@@ -1,0 +1,64 @@
+.ingredients {
+    padding: 60px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ingredients__pretitle {
+    text-align: left;
+}
+
+.ingredients__title {
+    text-align: left;
+}
+
+.ingredients__subtitle {
+    text-align: left;
+}
+
+.ingredients__img img {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.ingrediets__benefits {
+    font-family: var(--font-menu);
+    font-size: 20px;
+    line-height: 28.8px;
+}
+
+.ingredients__recipe {
+    font-family: var(--font-menu);
+    font-size: 18px;
+    color: rgb(185, 177, 197);
+    line-height: 28.8px;
+    margin-top: 20px;
+}
+
+.ingrediets__benefits li img {
+    width: 20px;
+    margin-right: 10px;
+    align-self: flex-start;
+}
+
+.ingrediets__benefits li {
+    display: flex;
+    margin-top: 16px;
+}
+
+.ingrediets__benefits li span {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .ingredients {
+        flex-direction: row;
+    }
+
+    .ingredients__description {
+        padding-left: 30px;
+    }
+}
