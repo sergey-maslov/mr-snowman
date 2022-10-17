@@ -35,6 +35,22 @@
     background-color: var(--color-text-main);
 }
 
+.header-banner-pretitle {
+    font-family: var(--font-additional);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.header-banner-title {
+    margin-top: 20px;
+    font-family: var(--font-primary);
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 63.8px;
+    text-align: left;
+}
+
 .header-banner {
     padding: 130px 24px 110px 24px;
     max-width: 1200px;
@@ -43,6 +59,11 @@
 
 .header-banner-subtitle {
     margin-top: 35px;
+    font-family: var(--font-menu);
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-text-additional);
+    text-align: left;
 }
 
 .header-banner-buttons {

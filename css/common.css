@@ -48,28 +48,6 @@ a {
     text-decoration: none;
 }
 
-/* h3 {
-    font-family: var(--font-additional);
-    font-size: 14px;
-    font-weight: 400;
-}
-
-h1 {
-    margin-top: 20px;
-    font-family: var(--font-primary);
-    font-size: 58px;
-    font-weight: 400;
-    line-height: 63.8px;
-}
-
-h2 {
-    margin-top: 25px;
-    font-family: var(--font-menu);
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--color-text-additional);
-} */
-
 h3 {
     font-family: var(--font-additional);
     font-size: 14px;
